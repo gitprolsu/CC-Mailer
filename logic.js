@@ -27,4 +27,6 @@ document.getElementById("refundForm").addEventListener("submit", function (e) {
     subject
   )}&body=${body}`;
   window.location.href = mailtoLink;
+
+  document.getElementById("refundForm").reset();
 });
